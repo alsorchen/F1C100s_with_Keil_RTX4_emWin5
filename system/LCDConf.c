@@ -17,9 +17,13 @@
 //
 // Physical display size
 //
+#if 1
+#define XSIZE_PHYS  (800)
+#define YSIZE_PHYS  (480)
+#else
 #define XSIZE_PHYS  (480)
 #define YSIZE_PHYS  (272)
-
+#endif
 //
 // Color conversion
 //

@@ -38,7 +38,7 @@
 
 #define phys_to_virt(x) (x)
 
-#if 0
+#if 1
 #define FB_LCD_XSIZE    (800)
 #define FB_LCD_YSIZE    (480)
 #define PIXEL_CLOCK     (30000000)
